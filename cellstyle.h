@@ -1,5 +1,5 @@
 /***********************************************************************
- * Copyright (c) 2016 dczekay@gmx.de
+ * Copyright (c) 2016 git@czekay.org
  * SPDX-License-Identifier: GPL-3.0-or-later
 
     This file is part of QODS_Module.

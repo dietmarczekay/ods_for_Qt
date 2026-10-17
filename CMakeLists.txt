@@ -1,4 +1,4 @@
-# Copyright (c) 2026 dczekay@gmx.de
+# Copyright (c) 2026 git@czekay.org
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
 # This file is part of QODS_Module, licensed under the GNU General Public
