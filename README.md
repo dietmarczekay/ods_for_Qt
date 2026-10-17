@@ -1,7 +1,7 @@
 # ods_for_Qt
 Qt class to write ods files in desktop apps and webassemlby apps
 
-
+```
 ods::Book book(ods::FileType::spreadsheet);
 ods::SpreadSheet *sheet = book.GetContentAsSpreadSheet();
 ods::Table *table = sheet->CreateTable("Results");
@@ -12,18 +12,11 @@ row->CreateCell(row->GetNextColumnNumber())->SetValue(12.5, 2);   // number
 row->CreateCell(QTime(0, 1, 23, 450), "mm:ss.zzz");               // time
 
 QString err = book.Save(QFile("example.ods"));                    // "" = OK
-
+```
 
 example code:
 
-/***********************************************************************
- * Copyright (c) 2026 git@czekay.org
- * SPDX-License-Identifier: GPL-3.0-or-later
-
-    Minimal example for QODS_Module: writes a small spreadsheet.
-    Desktop:     ./ods_example [file.ods]
-    WebAssembly: the browser offers "example.ods" as a download.
-************************************************************************/
+```
 
 #include <QDir>
 #include <QFile>
@@ -105,3 +98,4 @@ int main(int argc, char *argv[])
     return 0;
 #endif
 }
+```
